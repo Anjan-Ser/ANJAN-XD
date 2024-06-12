@@ -16,5 +16,5 @@ const imgp = './dldImg.jpg';
 fs.writeFileSync(imgp,await m.quoted.download());
 let {link} = await upload(imgp)
 let img = `https://api.maher-zubair.tech/maker/enhance?url=${link}`;
-return await message.sendFromUrl(img, {caption: "*𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃*"})
+return await message.sendFromUrl(img, {caption: "*🎗𝐀𝐍𝐉𝐀𝐍-𝐗𝐃🔮*"})
 });
