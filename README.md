@@ -1,6 +1,6 @@
 <p align="center">  
   <a href="https://wa.me/919883457657">
-    <img alt="X-2.0" height="300" src="https://graph.org/file/a9ad23c1153a05cafe814.jpg">
+    <img alt="X-2.0" height="300" src="https://telegra.ph/file/0c7a2c47fa748d97402c8.jpg">
     <h1 align="center">ミ★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★彡</h1>
   </a>
 </p>
