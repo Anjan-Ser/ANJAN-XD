@@ -46,19 +46,19 @@ command(
       let text = tiny(
         "\n𝗙𝗔𝗡𝗖𝗬 𝗧𝗘𝗫𝗧 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥\n\nReply to a message\nExample: .fancy 32\n\n"
       );
-      listall("NEZUKO").forEach((txt, num) => {
+      listall("Anjan Xd").forEach((txt, num) => {
         text += `${(num += 1)} ${txt}\n`;
       });
-        text += "\n\n𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐍𝐞𝐳𝐮𝐤𝐨🐼"
+        text += "\n\n★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★🐼"
       return await message.client.sendMessage(message.jid,{ document :{ url: "https://www.mediafire.com/file/n1qjfxjgvt0ovm2/IMG-20240211-WA0086_%25281%2529.pdf/file" }, fileName: "𝗡𝗘𝗭𝗨𝗞𝗢 𝗠𝗗 𝗙𝗔𝗡𝗖𝗬 𝗠𝗘𝗡𝗨" , mimetype: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileLength: "999999950", contextInfo: { externalAdReply: {
-title: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃",
+title: "★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★",
 body: "",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Q49D1NN.mp4" }}, caption: (text)}, {quoted: message });
+thumbnailUrl: "https://telegra.ph/file/0c7a2c47fa748d97402c8.jpg" }}, caption: (text)}, {quoted: message });
     } else {
       message.reply(styletext(message.reply_message.text, parseInt(match)));
     }
@@ -86,14 +86,14 @@ command(
     message.sendMessage(
       buff,
       { packname: config.STICKER_DATA.split(";")[0], author: config.STICKER_DATA.split(";")[1], contextInfo: { externalAdReply: {
-title: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃",
+title: "★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★",
 body: "𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙚𝙙 𝙄𝙣𝙩𝙤 𝙎𝙩𝙞𝙘𝙠𝙚𝙧",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/imOAWEN.jpeg" }} },
+thumbnailUrl: "https://telegra.ph/file/0c7a2c47fa748d97402c8.jpg" }} },
       "sticker"
     );
   }
@@ -167,14 +167,14 @@ command(
       {
         packname: packname || config.STICKER_DATA.split(";")[0],
         author: author || config.STICKER_DATA.split(";")[1], contextInfo: { externalAdReply: {
-title: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃",
+title: "★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★",
 body: `𝙏𝙖𝙠𝙚𝙙 𝙏𝙤 ${match}`,
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/imOAWEN.jpeg" }}
+thumbnailUrl: "https://telegra.ph/file/0c7a2c47fa748d97402c8.jpg" }}
       },
       "sticker"
     );
