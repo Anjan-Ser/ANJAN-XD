@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: ANJAN-XD
+    name: Anjan-xd
     env: node
     branch: main
     repo: https://github.com/Anjan-Ser/ANJAN-XD.git
@@ -11,29 +11,5 @@ services:
     envVars:
       - key: SESSION_ID
         sync: false
-      - key: BOT_INFO
-        value: ★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★;★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★;https://telegra.ph/file/0c7a2c47fa748d97402c8.jpg
-      - key: ALWAYS_ONLINE
-        value: true
-      - key: AUTO_STATUS_VIEWS
-        value: true
-      - key: AUDIO_DATA
-        value: ★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★;★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★;https://telegra.ph/file/0c7a2c47fa748d97402c8.jpg
-      - key: PREFIX
-        value: ^
-      - key: WORK_TYPE
-        value: private
-      - key: SERVER
-        value: render
-      - key: CAPTION
-        value: ★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★
-      - key: STICKER_DATA
-        value: ★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★
-      - key: SUDO
-        value: 919883457657
-      - key: SERVERURL
-        value:
       - key: DATABASE_URL
         sync: false
-      - key: LOGS
-        value: true
