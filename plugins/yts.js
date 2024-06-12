@@ -22,7 +22,7 @@ await message.client.sendMessage(message.jid, { text: `\n╭━━━━━━�
 ┃
 ┃ *ꜱᴇɴᴅ ᴀ ɴᴜᴍʙᴇʀ ᴀꜱ ᴀ ʀᴇᴩʟᴀʏ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ*
 ╰━━━━━━━━━━━━━━━┈⊷\n`, contextInfo: { externalAdReply: {
-     title: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃",
+     title: "★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★",
      body: `${title.all[0].ago}`,
      sourceUrl: "",
      mediaUrl: "",
