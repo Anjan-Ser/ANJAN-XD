@@ -6,7 +6,7 @@ const X = require("../config");
 
 command(
     {
-        pattern: "song",
+        pattern: "play",
         fromMe: isPrivate,
         desc: "Song Downloader",
         type: "downloader",
@@ -18,14 +18,14 @@ var song = res.data
 await message.client.sendMessage(message.jid, { text: `*_Downloading ${song.data.title}_*` },{ quoted: message})
 const aswinsparky = await (await fetch(`${song.data.downloadUrl}`)).buffer()
 await message.client.sendMessage(message.jid, { audio :aswinsparky,  mimetype:"audio/mpeg", contextInfo: { externalAdReply: {
-title: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃",
+title: "🎗𝐀𝐍𝐉𝐀𝐍-𝐗𝐃🔮",
 body: "𝙎𝙤𝙣𝙜 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/imOAWEN.jpeg" }} }, {quoted: message })
+thumbnailUrl: "https://telegra.ph/file/0c7a2c47fa748d97402c8.jpg" }} }, {quoted: message })
     }
     );
 
@@ -43,14 +43,14 @@ command(
 let {result} = await getJson(`https://api-aswin-sparky.koyeb.app/api/downloader/yt_video?search=${match}`);
 await message.client.sendMessage(message.jid, { text: `*_Downloading ${result.title}_*` },{ quoted: message})
 return await message.sendFromUrl(result.url, {contextInfo: { externalAdReply: {
-title: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃",
+title: "✨️𝐀𝐍𝐉𝐀𝐍-𝐗𝐃🎈",
 body: "𝙑𝙞𝙙𝙚𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮",
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/imOAWEN.jpeg" }}, caption: `*${result.title}*`}, {quoted: message })
+thumbnailUrl: "https://telegra.ph/file/0c7a2c47fa748d97402c8.jpg" }}, caption: `*${result.title}*`}, {quoted: message })
     });
 
 // Zeta-XD 
@@ -79,10 +79,10 @@ command(
   },
   async (message, match) => {
     match = match || message.reply_message.text
-   if (!match)return message.reply(`*_Ohh Baby!!Need instagram Link_*`)
+   if (!match)return message.reply(`*_Need instagram Link_*`)
 const res = await axios.get(`https://api-ironman444ff.koyeb.app/ironman/insta?url=${match}`);
 var video = res.data[0].download_link;
-await message.sendFromUrl(video, { caption: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃🦋"});
+await message.sendFromUrl(video, { caption: "★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★"});
 });
 
 command(
@@ -118,13 +118,13 @@ command(
         if (!match) return await message.sendMessage("*_Need Pinterest Url_*");
 var {result} = await getJson(`https://api.lokiser.xyz/api/pinterestdl?link=${match}`)
 await message.sendFromUrl(result.LokiXer.url,{ contextInfo: { externalAdReply: {
-title: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃",
+title: "★𝐀𝐍𝐉𝐀𝐍-𝐗𝐃★",
 body: `⎙`,
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/imOAWEN.jpeg" }}, caption: (X.CAPTION)}, {quoted: message})
+thumbnailUrl: "https://telegra.ph/file/0c7a2c47fa748d97402c8.jpg" }}, caption: (X.CAPTION)}, {quoted: message})
     }
     );
