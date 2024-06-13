@@ -230,14 +230,14 @@ Description: ${i.desc}\`\`\``);
         const readMore = String.fromCharCode(8206).repeat(4001);
       let menu = `\n╭━━━〔 ${BOT_INFO.split(";")[0]} 〕━━┈⊷
   ╭────────────────⊷   
-  ┃✯│ Owner: ${BOT_INFO.split(";")[1]}
-  ┃✯│ User: ${usern}
-  ┃✯│ Date: ${date}
-  ┃✯│ Time: ${time}
-  ┃✯│ Plugins: ${plugins.commands.length}
-  ┃✯│ Mode: ${config.WORK_TYPE}
-  ┃✯│ Prefix: ${config.HANDLERS}
-  ┃✯│ Version: ${require("../package.json").version}
+  ┃✨️│ Owner: ${BOT_INFO.split(";")[1]}
+  ┃🎈│ User: ${usern}
+  ┃🎉│ Date: ${date}
+  ┃🎁│ Time: ${time}
+  ┃🎊│ Plugins: ${plugins.commands.length}
+  ┃🔮│ Mode: ${config.WORK_TYPE}
+  ┃♻️│ Prefix: ${config.HANDLERS}
+  ┃😍│ Version: ${require("../package.json").version}
   ╰─────────────────⊷  
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ❐ 𝐏𝐋𝐔𝐆𝐈𝐍𝐒 ❒`;
 
@@ -269,7 +269,7 @@ Description: ${i.desc}\`\`\``);
         });
         menu += `\n  ╰─────────────┈⊷`;
       });
-menu += `\n╰─────────────┈⊷`;
+menu += `\n╰────✨️𝗔𝗻𝗷𝗮𝗻-𝘅𝗱🎊─────┈⊷`;
       let penu = tiny(menu)
       let vd = BOT_INFO.split(";")[2];
       return await message.sendFromUrl(vd, {fileLength: "500000000", gifPlayback: true, contextInfo: {
