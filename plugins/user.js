@@ -33,13 +33,13 @@ command(
     },
     async (message, match, client) => {
         const start = new Date().getTime();
-      let { key } = await message.sendMessage(`*❬ ᴛᴇꜱᴛɪɴɢ ᴩɪɴɢ❭*`);
+      let { key } = await message.sendMessage(`*✨️𝗔𝗻𝗷𝗮𝗻-𝘅𝗱🎊*`);
         const end = new Date().getTime();
 var speed = end - start;
  
 await new Promise(t => setTimeout(t,0))
-         await message.client.sendMessage(message.jid,{text:`*ᴩᴏɴɢ!* 📡
-${speed} *ᴍꜱ*` , edit: key});
+	 await m.React('⚡');   
+         await message.client.sendMessage(message.jid,{text:` *✨️𝗔𝗻𝗷𝗮𝗻-𝘅𝗱${speed}ᴍꜱ🎊*` , edit: key});
 })
 
 /* Copyright (C) 2022 X-Electra.
