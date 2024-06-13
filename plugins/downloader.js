@@ -13,7 +13,7 @@ command(
     },
     async (message, match) => {
         if (!match) return await message.sendMessage("*_Need Song Name Or Url_*");
-var res = await axios.get(`https://api-aswin-sparky.koyeb.app/api/downloader/yt_video?search=${match}`)
+var res = await axios.get(`https://api-viper-x.koyeb.app/api/song?name=${match}`)
 var song = res.data
 await message.client.sendMessage(message.jid, { text: `*_🎗𝐀𝐍𝐉𝐀𝐍-𝐗𝐃🔮 ${song.data.title}_*` },{ quoted: message})
 const aswinsparky = await (await fetch(`${song.data.downloadUrl}`)).buffer()
