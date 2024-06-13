@@ -15,7 +15,7 @@ command(
         if (!match) return await message.sendMessage("*_Need Song Name Or Url_*");
 var res = await axios.get(`https://api-viper-x.koyeb.app/api/song?name=${match}`)
 var song = res.data
-await message.client.sendMessage(message.jid, { text: `*_Downloading ${song.data.title}_*` },{ quoted: message})
+await message.client.sendMessage(message.jid, { text: `*_🎗𝐀𝐍𝐉𝐀𝐍-𝐗𝐃🔮 ${song.data.title}_*` },{ quoted: message})
 const aswinsparky = await (await fetch(`${song.data.downloadUrl}`)).buffer()
 await message.client.sendMessage(message.jid, { audio :aswinsparky,  mimetype:"audio/mpeg", contextInfo: { externalAdReply: {
 title: "🎗𝐀𝐍𝐉𝐀𝐍-𝐗𝐃🔮",
@@ -24,8 +24,8 @@ sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
-renderLargerThumbnail: false,
-thumbnailUrl: "https://telegra.ph/file/0c7a2c47fa748d97402c8.jpg" }} }, {quoted: message })
+renderLargerThumbnail: true,
+thumbnailUrl: "https://i.imgur.com/TH6wTUE.jpeg" }} }, {quoted: message })
     }
     );
 
