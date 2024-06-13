@@ -38,7 +38,7 @@ command(
 var speed = end - start;
  
 await new Promise(t => setTimeout(t,0))
-	 await m.React('⚡');   
+	 await message.React('⚡');   
          await message.client.sendMessage(message.jid,{text:` *✨️𝗔𝗻𝗷𝗮𝗻-𝘅𝗱${speed}ᴍꜱ🎊*` , edit: key});
 })
 
