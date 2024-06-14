@@ -27,6 +27,21 @@
 
 2. Now Deploy
     <a href='https://github.com/Anjan-Ser/ANJAN-XD' target="_blank"><img alt='DEPLOY Heroku' src='https://img.shields.io/badge/-Deploy-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+#### DEPLOY TO KOYEB 
+
+1. If You don't have a account in koyeb. Create a account.
+    <br>
+<a href='https://app.koyeb.com/auth/signup' target="_blank"><img alt='koyeb' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
+
+2. Get DATABASE_URL - Using Cockroach Lab, railway etcc
+
+3. Get [Koyeb api key](https://app.koyeb.com/account/api)
+
+4. Now Deploy
+    <br>
+<a href='https://app.koyeb.com/apps/deploy?type=git&repository=https://github.com/Anjan-Ser/ANJAN-XD&branch=main&name=anjan-xd&builder=dockerfile&env[WORK_TYPE]=&env[SUDO]=919883457657,0&env[DATABASE_URL]=&env[SESSION_ID]=' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb&logoColor=white'/></a>
+
+5. Change PORT - There will be (8000) in exposed port kindly change it to (3000)
 
 ---
 
